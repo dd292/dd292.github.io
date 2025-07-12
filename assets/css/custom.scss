@@ -1,0 +1,31 @@
+.masonry {
+  column-count: 3;
+  column-gap: 1em;
+}
+
+.grid-item {
+  break-inside: avoid;
+  margin-bottom: 1em;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  padding: 0.1em;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.grid-item:hover {
+  transform: scale(1.02);
+}
+
+.caption {
+  font-size: 0.85em;
+  color: #666;
+  margin-top: 0.4em;
+  text-align: center;
+}
