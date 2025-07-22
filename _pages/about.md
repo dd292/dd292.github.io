@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD. Robotics and Controls | Simulation Software Engineer
+subtitle: PhD. Robotics and Controls | Sim2Real Researcher
 
 profile:
   align: right
