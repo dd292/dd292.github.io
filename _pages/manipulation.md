@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /manipualtion/
+permalink: /manipulation/
 title: manipulation
 description: Implimenting manipulation algorithms
-nav: true
+nav: false
 nav_order: 2
 ---
 ## Manipulation on LeRobot
