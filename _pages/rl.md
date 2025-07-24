@@ -3,7 +3,7 @@ layout: page
 permalink: /rl/
 title: rl
 description: Implementing RL algorithm
-nav: true
+nav: false
 nav_order: 2
 ---
 This page is about tabulating some results of implementing rl algorithms on Ant, HalfCheetah, Hopper and Walker environmnts. 
@@ -23,28 +23,28 @@ here `forward reward` is based on x velocity, `ctrl_cost` is action penalty, and
 Finally, reward statistics are reported here. 
 ### Ant-v4
 Total Reward:368.2 \
-Training Loss: 0.036\
+Training Loss: 0.036
 <video width="480" autoplay loop muted playsinline>
-  <source src="/assets/img/rl/ant_bc-compressed.mov" type="video/quicktime">
+  <source src="/assets/img/rl/ant_bc-compressed.mp4" type="video/mp4">
 </video>
 
 ### HalfCheetah-v4
 Total Reward:1223.9 \
-Training Loss: 0.033\
+Training Loss: 0.033
 <video width="480" autoplay loop muted playsinline>
-  <source src="/assets/img/rl/cheetah-compressed.mov" type="video/quicktime">
+  <source src="/assets/img/rl/cheetah-compressed.mp4" type="video/mp4">
 </video>
 
 ### Hopper-v4
 Total Reward:159.21 \
-Training Loss: 0.031\
+Training Loss: 0.031
 <video width="480" autoplay loop muted playsinline>
-  <source src="/assets/img/rl/Hopper-compressed.mov" type="video/quicktime">
+  <source src="/assets/img/rl/Hopper-compressed.mp4" type="video/mp4">
 </video>
 
 ### Walker2d-v4
 Total Reward:140.8 \
-Training Loss: 0.033\
+Training Loss: 0.033
 <video width="480" autoplay loop muted playsinline>
-  <source src="/assets/img/rl/walker-compressed.mov" type="video/quicktime">
+  <source src="/assets/img/rl/walker-compressed.mp4" type="video/mp4">
 </video>
