@@ -6,6 +6,8 @@
 
 **A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.**
 
+To run it locally `bundle exec jekyll serve --port 4001` 
+make sure to change the addess in `html={http://127.0.0.1:4001/rl/}`
 ---
 
 [![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
