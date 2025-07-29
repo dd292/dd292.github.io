@@ -1,6 +1,6 @@
 
 
-## Behavioral Cloning
+
 
 BC is supervised learning. Here we are leanring a policy that can predict actions given observation using data from an expert. For these experiments, the expert data was given in the form of .pkl files. 
 
