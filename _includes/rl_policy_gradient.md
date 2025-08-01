@@ -22,4 +22,12 @@ These graphs plot the learning rate for the four variants of policy gradients in
 2. Normalizing advantage (Q function here) is a powerful technique. As can be seen from the plots it stabilized the training for the cartpole environment. However, adding reward to go make it perform worse mostly because now the reward is different for every time step unlike the vanilla PG where reward fro every time step is sum of the discounted reward for the whole episode. 
 
 ### Experiment 2 
+In this experiment I calculated adavtage by subtracting the Q function with a baseline. The baseline is a prediction from a 2 layered neural network which takes in observation as input. The baseline predicts the value function at a state. The update of the baseline is done during the update of the policy but learning rate and number of iterations for the baseline update is a tuanble hyperparameter. 
 
+<p align="center">
+<div style="display: flex; gap: 20px;">
+  <img src="/assets/img/rl/cheetah_baseline.png" width="400" vspace="5"/>
+  <img src="/assets/img/rl/baseline_explorationscheetah_.png" width="400" vspace="5"/>
+</div>
+</p>
+The plot on the left shows the comparison of learning curve with and without baseline for the cheetah environement. Note, advatage without baseline is just discounted sum of reward-to-go. The plot on the right shows the hyperparameter tuning for learning rate and number of update steps for the baseline. 
